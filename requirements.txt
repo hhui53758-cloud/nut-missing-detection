@@ -1,0 +1,17 @@
+# Ultralytics YOLO 框架
+ultralytics>=8.3.0
+
+# 图像处理
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# 数值计算
+numpy>=1.24.0
+
+# PyTorch（通常随 ultralytics 一起安装，按需显式声明）
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 轻量 GUI（备用，如需更美观的界面可替换 tkinter）
+# 如果 tkinter 缺失（部分 Linux 发行版），可安装：
+# sudo apt-get install python3-tk
